@@ -14,6 +14,8 @@
 		D26DD0681C9CD14E00138F81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D26DD0661C9CD14E00138F81 /* LaunchScreen.storyboard */; };
 		D26DD0731C9CD14E00138F81 /* MyMovieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26DD0721C9CD14E00138F81 /* MyMovieTests.swift */; };
 		D26DD07E1C9CD14E00138F81 /* MyMovieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26DD07D1C9CD14E00138F81 /* MyMovieUITests.swift */; };
+		D26DD08C1C9CEC6300138F81 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26DD08B1C9CEC6300138F81 /* LoginViewController.swift */; };
+		D26DD08E1C9CECF900138F81 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26DD08D1C9CECF900138F81 /* SignupViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		D26DD0791C9CD14E00138F81 /* MyMovieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyMovieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D26DD07D1C9CD14E00138F81 /* MyMovieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMovieUITests.swift; sourceTree = "<group>"; };
 		D26DD07F1C9CD14E00138F81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D26DD08B1C9CEC6300138F81 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D26DD08D1C9CECF900138F81 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				D26DD0641C9CD14E00138F81 /* Assets.xcassets */,
 				D26DD0661C9CD14E00138F81 /* LaunchScreen.storyboard */,
 				D26DD0691C9CD14E00138F81 /* Info.plist */,
+				D26DD08B1C9CEC6300138F81 /* LoginViewController.swift */,
+				D26DD08D1C9CECF900138F81 /* SignupViewController.swift */,
 			);
 			path = MyMovie;
 			sourceTree = "<group>";
@@ -256,7 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D26DD08C1C9CEC6300138F81 /* LoginViewController.swift in Sources */,
 				D26DD0601C9CD14E00138F81 /* ViewController.swift in Sources */,
+				D26DD08E1C9CECF900138F81 /* SignupViewController.swift in Sources */,
 				D26DD05E1C9CD14E00138F81 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

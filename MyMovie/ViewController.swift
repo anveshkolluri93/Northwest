@@ -20,6 +20,18 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    override func viewDidAppear(animated: Bool) {
+        self.performSegueWithIdentifier("loginView", sender: self)
+    }
+    
+    
+    @IBOutlet weak var usernameLabel: UILabel!
+    
+    
+
+    @IBAction func logoutTappedSender(sender: AnyObject) {
+         self.performSegueWithIdentifier("loginView", sender: self)
+    }
 
 }
 
