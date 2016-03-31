@@ -7,6 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2106184C1C9F47F40094055B /* HomeTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2106184B1C9F47F40094055B /* HomeTableView.swift */; };
+		210618501C9F4E5D0094055B /* User-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 2106184D1C9F4E5D0094055B /* User-48.png */; };
+		210618511C9F4E5D0094055B /* Clock Filled-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 2106184E1C9F4E5D0094055B /* Clock Filled-50.png */; };
+		210618521C9F4E5D0094055B /* Home-52.png in Resources */ = {isa = PBXBuildFile; fileRef = 2106184F1C9F4E5D0094055B /* Home-52.png */; };
+		210618541C9F4FD10094055B /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210618531C9F4FD10094055B /* ProfileViewController.swift */; };
+		210618561C9F523F0094055B /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210618551C9F523F0094055B /* HistoryViewController.swift */; };
+		21F55BA81CA2464C0099ED7C /* KinveyKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21F55BA71CA2464C0099ED7C /* KinveyKit.framework */; };
+		21F55BAA1CA246630099ED7C /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21F55BA91CA246630099ED7C /* Accounts.framework */; };
+		21F55BAC1CA2466B0099ED7C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21F55BAB1CA2466B0099ED7C /* CoreData.framework */; };
+		21F55BAE1CA246730099ED7C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21F55BAD1CA246730099ED7C /* CoreGraphics.framework */; };
+		21F55BB01CA2467A0099ED7C /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 21F55BAF1CA2467A0099ED7C /* libsqlite3.0.tbd */; };
+		21F55BB21CA246850099ED7C /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21F55BB11CA246850099ED7C /* MobileCoreServices.framework */; };
+		21F55BB41CA2468D0099ED7C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21F55BB31CA2468D0099ED7C /* Security.framework */; };
+		21F55BB61CA246960099ED7C /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21F55BB51CA246960099ED7C /* Social.framework */; };
+		21F55BB81CA246A30099ED7C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21F55BB71CA246A30099ED7C /* SystemConfiguration.framework */; };
+		21F55BBA1CA246AA0099ED7C /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21F55BB91CA246AA0099ED7C /* WebKit.framework */; };
+		21F55BBD1CA2476E0099ED7C /* KinveyOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F55BBC1CA2476E0099ED7C /* KinveyOperations.swift */; };
+		21F55BBF1CA247990099ED7C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F55BBE1CA247990099ED7C /* User.swift */; };
+		21F55BC11CA247B80099ED7C /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F55BC01CA247B80099ED7C /* Login.swift */; };
+		21F55BC61CA275E30099ED7C /* U.png in Resources */ = {isa = PBXBuildFile; fileRef = 21F55BC31CA275E30099ED7C /* U.png */; };
+		21F55BC71CA275E30099ED7C /* C.png in Resources */ = {isa = PBXBuildFile; fileRef = 21F55BC41CA275E30099ED7C /* C.png */; };
+		21F55BCC1CA279E70099ED7C /* Home-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 21F55BCB1CA279E70099ED7C /* Home-40.png */; };
 		D26DD05E1C9CD14E00138F81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26DD05D1C9CD14E00138F81 /* AppDelegate.swift */; };
 		D26DD0601C9CD14E00138F81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26DD05F1C9CD14E00138F81 /* ViewController.swift */; };
 		D26DD0631C9CD14E00138F81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D26DD0611C9CD14E00138F81 /* Main.storyboard */; };
@@ -36,6 +58,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2106184B1C9F47F40094055B /* HomeTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableView.swift; sourceTree = "<group>"; };
+		2106184D1C9F4E5D0094055B /* User-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "User-48.png"; sourceTree = "<group>"; };
+		2106184E1C9F4E5D0094055B /* Clock Filled-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Clock Filled-50.png"; sourceTree = "<group>"; };
+		2106184F1C9F4E5D0094055B /* Home-52.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Home-52.png"; sourceTree = "<group>"; };
+		210618531C9F4FD10094055B /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		210618551C9F523F0094055B /* HistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		21F55BA71CA2464C0099ED7C /* KinveyKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KinveyKit.framework; sourceTree = "<group>"; };
+		21F55BA91CA246630099ED7C /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		21F55BAB1CA2466B0099ED7C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		21F55BAD1CA246730099ED7C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		21F55BAF1CA2467A0099ED7C /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		21F55BB11CA246850099ED7C /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		21F55BB31CA2468D0099ED7C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		21F55BB51CA246960099ED7C /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		21F55BB71CA246A30099ED7C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		21F55BB91CA246AA0099ED7C /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		21F55BBB1CA2471D0099ED7C /* MyMovie-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyMovie-Header.h"; sourceTree = "<group>"; };
+		21F55BBC1CA2476E0099ED7C /* KinveyOperations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KinveyOperations.swift; sourceTree = "<group>"; };
+		21F55BBE1CA247990099ED7C /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		21F55BC01CA247B80099ED7C /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		21F55BC31CA275E30099ED7C /* U.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = U.png; sourceTree = "<group>"; };
+		21F55BC41CA275E30099ED7C /* C.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = C.png; sourceTree = "<group>"; };
+		21F55BCB1CA279E70099ED7C /* Home-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Home-40.png"; sourceTree = "<group>"; };
 		D26DD05A1C9CD14E00138F81 /* MyMovie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMovie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D26DD05D1C9CD14E00138F81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D26DD05F1C9CD14E00138F81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +103,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21F55BBA1CA246AA0099ED7C /* WebKit.framework in Frameworks */,
+				21F55BB81CA246A30099ED7C /* SystemConfiguration.framework in Frameworks */,
+				21F55BB61CA246960099ED7C /* Social.framework in Frameworks */,
+				21F55BB41CA2468D0099ED7C /* Security.framework in Frameworks */,
+				21F55BB21CA246850099ED7C /* MobileCoreServices.framework in Frameworks */,
+				21F55BB01CA2467A0099ED7C /* libsqlite3.0.tbd in Frameworks */,
+				21F55BAE1CA246730099ED7C /* CoreGraphics.framework in Frameworks */,
+				21F55BAC1CA2466B0099ED7C /* CoreData.framework in Frameworks */,
+				21F55BAA1CA246630099ED7C /* Accounts.framework in Frameworks */,
+				21F55BA81CA2464C0099ED7C /* KinveyKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +136,15 @@
 		D26DD0511C9CD14E00138F81 = {
 			isa = PBXGroup;
 			children = (
+				21F55BB91CA246AA0099ED7C /* WebKit.framework */,
+				21F55BB71CA246A30099ED7C /* SystemConfiguration.framework */,
+				21F55BB51CA246960099ED7C /* Social.framework */,
+				21F55BB31CA2468D0099ED7C /* Security.framework */,
+				21F55BB11CA246850099ED7C /* MobileCoreServices.framework */,
+				21F55BAF1CA2467A0099ED7C /* libsqlite3.0.tbd */,
+				21F55BAD1CA246730099ED7C /* CoreGraphics.framework */,
+				21F55BAB1CA2466B0099ED7C /* CoreData.framework */,
+				21F55BA91CA246630099ED7C /* Accounts.framework */,
 				D26DD05C1C9CD14E00138F81 /* MyMovie */,
 				D26DD0711C9CD14E00138F81 /* MyMovieTests */,
 				D26DD07C1C9CD14E00138F81 /* MyMovieUITests */,
@@ -101,14 +165,28 @@
 		D26DD05C1C9CD14E00138F81 /* MyMovie */ = {
 			isa = PBXGroup;
 			children = (
+				21F55BC31CA275E30099ED7C /* U.png */,
+				21F55BCB1CA279E70099ED7C /* Home-40.png */,
+				21F55BC41CA275E30099ED7C /* C.png */,
+				21F55BA71CA2464C0099ED7C /* KinveyKit.framework */,
 				D26DD05D1C9CD14E00138F81 /* AppDelegate.swift */,
 				D26DD05F1C9CD14E00138F81 /* ViewController.swift */,
+				2106184D1C9F4E5D0094055B /* User-48.png */,
+				2106184E1C9F4E5D0094055B /* Clock Filled-50.png */,
+				2106184F1C9F4E5D0094055B /* Home-52.png */,
 				D26DD0611C9CD14E00138F81 /* Main.storyboard */,
 				D26DD0641C9CD14E00138F81 /* Assets.xcassets */,
 				D26DD0661C9CD14E00138F81 /* LaunchScreen.storyboard */,
 				D26DD0691C9CD14E00138F81 /* Info.plist */,
 				D26DD08B1C9CEC6300138F81 /* LoginViewController.swift */,
 				D26DD08D1C9CECF900138F81 /* SignupViewController.swift */,
+				2106184B1C9F47F40094055B /* HomeTableView.swift */,
+				210618531C9F4FD10094055B /* ProfileViewController.swift */,
+				210618551C9F523F0094055B /* HistoryViewController.swift */,
+				21F55BC01CA247B80099ED7C /* Login.swift */,
+				21F55BBE1CA247990099ED7C /* User.swift */,
+				21F55BBC1CA2476E0099ED7C /* KinveyOperations.swift */,
+				21F55BBB1CA2471D0099ED7C /* MyMovie-Header.h */,
 			);
 			path = MyMovie;
 			sourceTree = "<group>";
@@ -237,7 +315,13 @@
 			files = (
 				D26DD0681C9CD14E00138F81 /* LaunchScreen.storyboard in Resources */,
 				D26DD0651C9CD14E00138F81 /* Assets.xcassets in Resources */,
+				21F55BCC1CA279E70099ED7C /* Home-40.png in Resources */,
+				21F55BC61CA275E30099ED7C /* U.png in Resources */,
+				21F55BC71CA275E30099ED7C /* C.png in Resources */,
+				210618501C9F4E5D0094055B /* User-48.png in Resources */,
+				210618521C9F4E5D0094055B /* Home-52.png in Resources */,
 				D26DD0631C9CD14E00138F81 /* Main.storyboard in Resources */,
+				210618511C9F4E5D0094055B /* Clock Filled-50.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +346,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				210618541C9F4FD10094055B /* ProfileViewController.swift in Sources */,
+				21F55BC11CA247B80099ED7C /* Login.swift in Sources */,
 				D26DD08C1C9CEC6300138F81 /* LoginViewController.swift in Sources */,
+				2106184C1C9F47F40094055B /* HomeTableView.swift in Sources */,
+				21F55BBD1CA2476E0099ED7C /* KinveyOperations.swift in Sources */,
 				D26DD0601C9CD14E00138F81 /* ViewController.swift in Sources */,
+				21F55BBF1CA247990099ED7C /* User.swift in Sources */,
 				D26DD08E1C9CECF900138F81 /* SignupViewController.swift in Sources */,
+				210618561C9F523F0094055B /* HistoryViewController.swift in Sources */,
 				D26DD05E1C9CD14E00138F81 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,10 +497,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MyMovie",
+				);
 				INFOPLIST_FILE = MyMovie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = Anvesh.MyMovie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyMovie/MyMovie-Header.h";
 			};
 			name = Debug;
 		};
@@ -418,10 +514,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MyMovie",
+				);
 				INFOPLIST_FILE = MyMovie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = Anvesh.MyMovie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyMovie/MyMovie-Header.h";
 			};
 			name = Release;
 		};
@@ -492,6 +594,7 @@
 				D26DD0841C9CD14E00138F81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D26DD0851C9CD14E00138F81 /* Build configuration list for PBXNativeTarget "MyMovieTests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +603,7 @@
 				D26DD0871C9CD14E00138F81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D26DD0881C9CD14E00138F81 /* Build configuration list for PBXNativeTarget "MyMovieUITests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +612,7 @@
 				D26DD08A1C9CD14E00138F81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

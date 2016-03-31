@@ -8,10 +8,13 @@
 
 import UIKit
 
-class SignupViewController: UIViewController {
-
+class SignupViewController: UIViewController,OperationProtocol{
+  var kinvey:KinveyOperations!
+     var user:User!
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationItem.setHidesBackButton(true, animated:true)
+        kinvey = KinveyOperations(operationProtocol: self)
 
         // Do any additional setup after loading the view.
     }
@@ -38,12 +41,61 @@ class SignupViewController: UIViewController {
     
     
     @IBAction func registerTapped(sender: AnyObject) {
+        user = User(firstName: txtFirstName.text!, lastName: txtLastName.text!, email: txtEmail.text!, password: txtPassword.text!, confirmPassword: txtReenterPassword.text!)
+        
+       
+        kinvey.registerUser(user)
+        
+        displayAlertControllerWithTitle("Success", message:"Registration Successful")
+        
+
     }
     
-    @IBAction func gotoLogin(sender: AnyObject) {
-        self.dismissViewControllerAnimated( true , completion: nil)
+    //@IBAction func gotoLogin(sender: AnyObject) {
+    //    self.dismissViewControllerAnimated( true , completion: nil)
+   // }
+    
+    
+    func onSuccess() {
+        //
     }
     
+    func onError(message: String) {
+        //
+    }
+    
+    func noActiveUser() {
+        //
+    }
+    
+    func loginFailed() {
+        //code
+    }
+    
+    
+    
+    func displayAlertControllerWithTitle(title:String, message:String) {
+        let uiAlertController:UIAlertController = UIAlertController(title: title,
+            message: message, preferredStyle: UIAlertControllerStyle.Alert)
+        uiAlertController.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Cancel,
+            handler:  { action in self.performSegueWithIdentifier("registersuccess", sender: self) }))
+        self.presentViewController(uiAlertController, animated: true, completion: nil)
+        
+        
+        
+        
+    }
+    func displayAlertControllerWithTitleforFailure(title:String, message:String) {
+        let uiAlertController:UIAlertController = UIAlertController(title: title,
+            message: message, preferredStyle: UIAlertControllerStyle.Alert)
+        uiAlertController.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Cancel,
+            handler:{(action:UIAlertAction)->Void in }))
+        self.presentViewController(uiAlertController, animated: true, completion: nil)
+        
+        
+        
+    }
+
     /*
     // MARK: - Navigation
 

@@ -8,11 +8,14 @@
 
 import UIKit
 
-class LoginViewController: UIViewController {
-
+class LoginViewController: UIViewController, OperationProtocol {
+    var kinveyOperations:KinveyOperations!
+    var login:Login!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.navigationController?.navigationBarHidden = true;
+        self.navigationItem.setHidesBackButton(true, animated:true)
+        kinveyOperations = KinveyOperations(operationProtocol: self)
         // Do any additional setup after loading the view.
     }
 
@@ -28,7 +31,48 @@ class LoginViewController: UIViewController {
 
     
     @IBAction func logionTapped(sender: AnyObject) {
-        //Authentication Part
+        login = Login(userName: txtUsername.text!, password: txtPassword.text!)
+        kinveyOperations.loginUser(login)
+
+    }
+    
+    func displayAlertControllerWithTitle(title:String, message:String) {
+        let uiAlertController:UIAlertController = UIAlertController(title: title,
+            message: message, preferredStyle: UIAlertControllerStyle.Alert)
+        uiAlertController.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Cancel,
+            handler:  { action in self.performSegueWithIdentifier("success", sender: self) }))
+        self.presentViewController(uiAlertController, animated: true, completion: nil)
+        
+        
+        
+        
+    }
+    
+    func displayAlertControllerWithFailure(title:String, message:String) {
+        let uiAlertController:UIAlertController = UIAlertController(title: title,
+            message: message, preferredStyle: UIAlertControllerStyle.Alert)
+        uiAlertController.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Cancel,
+            handler:{(action:UIAlertAction)->Void in }))
+        self.presentViewController(uiAlertController, animated: true, completion: nil)
+        
+        
+        
+    }
+    
+    
+    func onError(message: String) {
+        displayAlertControllerWithFailure("OOPS!", message:"Login Failed")
+        
+    }
+    func onSuccess() {
+        displayAlertControllerWithTitle("Success", message:"Login Successful")
+    }
+    func noActiveUser() {
+        //
+    }
+    
+    func loginFailed() {
+        //
     }
     /*
     // MARK: - Navigation
